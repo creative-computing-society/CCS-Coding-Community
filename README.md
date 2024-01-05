@@ -1,7 +1,15 @@
 # CCS-Coding-Community
 
+Hello all,
+Welcome to the official Github repository of CCS Coding Community which is an initiative by Creative Computing Society to boost the coding culture at TIET. With a community of 1800+ members, 7 proficient mentors and 60+ questions discussed till date,CCS Coding Community is one of the best places to kickstart your DSA journey. At Coding Community,we daily share 2 questions - 1 basic(for those who are just getting started) and 1 advanced(for those who have some knowledge of DSA) and at the end of the day, the solutions are discussed and explained by a mentor on a meet.
 
+## Be a part of Coding Community
+
+[CCS Coding Community Announcements Group](https://chat.whatsapp.com/E56OsqA9WQ274euqXIkK8K)
+[CCS Coding Community Discussion Group](https://chat.whatsapp.com/IgADOXu7p6v06Asl20Ukhf)
 ## Date-wise Questions 
+
+Below is a well compiled list of questions discussed till now for your easy reference
 
 | Date       | Easy Question                      | Hard Question                      |
 |------------|--------------------------------------|--------------------------------------|
