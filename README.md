@@ -27,7 +27,7 @@
 | 2023-11-26 | [Product of Array except Self]( https://leetcode.com/problems/product-of-array-except-self/description/)    | [Path Sum](https://leetcode.com/problems/path-sum/) |
 | 2023-11-27 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)    | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 
 | 2023-12-26 | [Find the difference of two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)    | [Same Tree ](https://leetcode.com/problems/same-tree/description/) |
-| 2023-12-27 | [Find pivot index](https://leetcode.com/problems/find-pivot-index/ )    | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |
+| 2023-12-27   | [Find pivot index](https://leetcode.com/problems/find-pivot-index/ )    | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |
 | 2023-11-28 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)    | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)  |
 | 2023-11-29 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)    | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/submissions/946757218) | 
 | 2023-12-30 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)    | [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)|
