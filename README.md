@@ -5,8 +5,8 @@ Welcome to the official Github repository of CCS Coding Community which is an in
 
 ## Be a part of Coding Community
 
-*[CCS Coding Community Announcements Group](https://chat.whatsapp.com/E56OsqA9WQ274euqXIkK8K)
-*[CCS Coding Community Discussion Group](https://chat.whatsapp.com/IgADOXu7p6v06Asl20Ukhf)
+-[CCS Coding Community Announcements Group](https://chat.whatsapp.com/E56OsqA9WQ274euqXIkK8K)
+-[CCS Coding Community Discussion Group](https://chat.whatsapp.com/IgADOXu7p6v06Asl20Ukhf)
 ## Date-wise Questions 
 
 Below is a well compiled list of questions discussed till now for your easy reference
