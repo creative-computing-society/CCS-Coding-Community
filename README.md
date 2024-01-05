@@ -30,10 +30,8 @@
 | 2023-12-27 | [Find pivot index](https://leetcode.com/problems/find-pivot-index/ )    | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |
 | 2023-11-28 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)    | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)  |
 | 2023-11-29 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)    | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/submissions/946757218) | 
-| 2023-12-30 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/
-)    | [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)|
-| 2023-01-02 | [Partition List](https://leetcode.com/problems/partition-list/
-)    | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
+| 2023-12-30 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)    | [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)|
+| 2023-01-02 | [Partition List](https://leetcode.com/problems/partition-list/)    | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |
 | 2023-01-03 | [Convert an array into a 2D Array](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)    | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) |
 | 2023-01-04 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)    | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|
 | 2023-01-05 | [Maximum Points you can obtain from cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)    | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|
