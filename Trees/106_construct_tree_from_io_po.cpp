@@ -6,7 +6,8 @@ public:
         
         int root_index = hm[po[p_en]];
         int num_ele = root_index - i_st;
-
+       // If root lies at x+1 then 1st x elements of inorder gives us the LEFT SUBTREE
+        
         TreeNode* root = new TreeNode(po[p_en]);
         root->left =  build(io, i_st, root_index - 1,po, p_st, p_st+num_ele-1, hm);
         root->right = build(io, root_index+1,i_en, po, p_st + num_ele, p_en-1, hm);
