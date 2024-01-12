@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string removeDuplicates(string s) {
+    string removeDuplicates(string s) {n
         string ans="";
         for( auto ch:s){
             if(ans.size()==0 || ans.size()>0 && ans.back()!=ch){
