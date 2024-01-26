@@ -1,0 +1,26 @@
+class Solution {
+public:
+
+    int binarysearch(vector<int>vec){
+            int beg=0,end=vec.size()-1;
+            while(beg<=end){
+                int mid=(beg+end)/2;
+                // beg=mid+1. -- non neg value
+
+                if(vec[mid]>=0) beg=mid+1;
+                else end=mid-1;
+            }
+            return vec.size()-(end+1);
+            //end is pointing to the last occ of non neg no.
+    }
+
+    int countNegatives(vector<vector<int>>& grid) {
+        int m=grid.size();
+        int n= grid[0].size();int ans=0;
+
+        for(int i=0;i<m;i++){
+            ans+=binarysearch(grid[i]);
+        }
+        return ans;
+    }
+};
