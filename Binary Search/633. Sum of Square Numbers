@@ -1,0 +1,32 @@
+class Solution {
+public:
+    bool judgeSquareSum(int c) {
+        // long long 
+        for(long long int a=0;a*a<=c;a++){
+            long long int target= c-a*a;
+
+            int beg=0,end=c-a*a;
+
+            while(beg<=end){
+
+                long long int mid=beg+(end-beg)/2;
+                long long int search=mid*mid;
+                //a=0
+                //s=1
+
+                if(search>target) end=mid-1;
+                else if(search < target) beg=mid+1; //b=2
+                else {
+
+                    // we found b such that c-a^2 = b^2
+
+                    return true;
+                }
+
+            }
+
+        }
+
+        return false;
+    }
+};
