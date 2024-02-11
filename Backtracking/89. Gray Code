@@ -1,0 +1,59 @@
+class Solution {
+public:
+
+    void backtrack(bitset<32>&bits, vector<int>&res, int n){
+        if(n==0){
+            res.push_back(bits.to_ulong());
+            return ;
+        }
+       // 0 ->k-1
+       backtrack(bits,res,n-1);
+       //flip 
+       bits.flip(n-1);
+       backtrack(bits,res,n-1);
+    }
+    vector<int> grayCode(int n) {
+        // Approach 1 backtracking 
+
+        // 1.choose 2.operation 3.unchoose
+        
+        // bitset<32>bits;
+        // vector<int>res;
+        // backtrack(bits,res,n);
+        // return res;
+
+        //n=1 0,1 [0 1]
+
+
+        //n=2 0,1,2,3 
+        //00 01 --- 11 10 ---  0,1,3,2
+        //10
+
+
+        // n=3
+        //000 001 011 010. --- 110 111 101 100
+        //100
+
+
+
+
+// approach 2 - pattern identification
+        vector<int>res={0,1};
+        for(int i=1;i<n;i++){
+            auto temp = res;
+            reverse(temp.begin(),temp.end());
+            for(auto& v: temp) v+=1<<i;
+            
+            res.insert(res.end(),temp.begin(),temp.end());
+
+
+        }
+
+        return res;
+
+
+
+
+
+    }
+};
