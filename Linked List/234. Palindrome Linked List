@@ -1,0 +1,28 @@
+bool isPalindrome(ListNode* head) {
+        //create a new reversed list 
+        //iterate through both
+        //on first encountering unequal values, return false
+
+        if(head==NULL || head->next==NULL) return true;
+
+        ListNode * rev_head=NULL;
+        ListNode *ptr=head;
+        //1 2 2 1
+        // NULL<-1<-2<-2<-1
+        while(ptr!=NULL){
+            ListNode* temp=new ListNode(ptr->val);
+            temp->next=rev_head;
+            rev_head=temp;
+            ptr=ptr->next;
+        }
+
+        while(head!=NULL && rev_head!=NULL){
+            if(head->val != rev_head->val) return false;
+            head=head->next;
+            rev_head=rev_head->next;
+
+        }
+
+        return true;
+
+    }
