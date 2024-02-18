@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int dp[31][3001];
+
+    int dfs(int i,int tot,int sum,vector<int>& stones){
+            if(i==stones.size()){
+                return abs(tot-(sum-tot));
+            }
+            if(dp[i][tot]!=-1){
+                return dp[i][tot];
+            }
+
+            int include= dfs(i+1,tot+stones[i],sum,stones);
+            int exclude= dfs(i+1,tot,sum,stones);
+            return dp[i][tot] = min(include,exclude);
+    }
+
+    int lastStoneWeightII(vector<int>& stones) {
+
+        int sum = accumulate(stones.begin(),stones.end(),0);
+        memset(dp,-1,sizeof(dp));
+        return dfs(0,0,sum,stones);
+        
+    }
+};
