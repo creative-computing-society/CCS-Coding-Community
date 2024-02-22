@@ -1,0 +1,17 @@
+int maxProduct(vector<int>& nums) {
+        int ans = nums[0];
+        int cmax=1,cmin=1;
+        for(int i=0;i<nums.size();i++){
+               //assign to cmax if curr ele is required in max subarray
+
+               //max (1,2,3) = max(max(1,2),3)
+               int temp=cmax;
+               cmax=max(max(nums[i]*cmax,nums[i]*cmin),nums[i]); 
+
+               cmin=min(min(nums[i]*temp,nums[i]*cmin),nums[i]);
+               ans=max(ans,cmax);
+
+
+        }
+        return ans;
+    }
