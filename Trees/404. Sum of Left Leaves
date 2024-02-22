@@ -1,0 +1,20 @@
+int tot=0;
+
+    void dfs(bool is_left, TreeNode* curr){
+        if(curr==NULL) return;
+        // left + leaf
+        if(is_left && (curr->left==NULL && curr->right==NULL)){
+            tot+=(curr->val);
+            return ;
+        }
+
+        dfs(true,curr->left);
+        dfs(false,curr->right);
+
+    }
+
+    int sumOfLeftLeaves(TreeNode* root) {
+        dfs(false,root);
+        return tot;
+        
+    }
